@@ -51,7 +51,7 @@ const UseEffect_01 = () => {
       <p>Count is {count}</p>
       {showText ? <h3>Hello useEffect</h3> : null}
 
-      <button onClick={() => setCount(count + 1)}>Increased Count</button>
+      <button onClick={() => setCount(count + 1)}>Add</button>
       <ul>
         {productsList && productsList.length > 0
           ? productsList.map((item) => <li>{item.title}</li>)
